@@ -14,8 +14,8 @@ while True:
           0. 종료
           """
     )
-    input1 = print(input("메뉴 번호를 선택해주세요"))
-
+    input1 = input("메뉴 번호를 선택해주세요")
+    print(input1)
     if input1 == "0":
         print("이용해주셔서 감사합니다.유노은행")
         break
