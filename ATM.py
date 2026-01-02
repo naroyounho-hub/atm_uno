@@ -50,3 +50,5 @@ while True:
     elif input1 == "4":
         while his in range(len(history)):
             print(f"[{his["state"]}],  {his["amount"]}, {his["bal"]}")
+    else:
+        print("잘못입력하셨습니다")
