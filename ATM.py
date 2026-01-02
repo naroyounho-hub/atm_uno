@@ -26,8 +26,7 @@ while True:
             input(
                 """
         입금 하실 금액을 입력하세요.
-        입금액 :
-                           """
+        입금액 :  """
             )
         )
         balance = balance + input2
@@ -39,8 +38,7 @@ while True:
             input(
                 """
         출금 하실 금액을 입력하세요.
-        출금액 :
-                           """
+        출금액 : """
             )
         )
         balance = balance - input3
@@ -48,7 +46,7 @@ while True:
         his = {"state": "출금", "amount": input3, "bal": balance}
         history.append(his)
     elif input1 == "4":
-        while his in range(len(history)):
-            print(f"[{his["state"]}],  {his["amount"]}, {his["bal"]}")
+        for h in history:
+            print(f"[{h['state']}],  {h['amount']}, {h['bal']}")
     else:
         print("잘못입력하셨습니다")
