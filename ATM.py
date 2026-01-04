@@ -1,4 +1,4 @@
-# 260102 15:15
+# 260102 15:15 코드짜보기
 balance = 0
 history = []
 his = {"state": "", "amount": 0, "bal": 0}
