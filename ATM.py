@@ -47,6 +47,6 @@ while True:
         history.append(his)
     elif input1 == "4":
         for h in history:
-            print(f"[{h['state']}],  {h['amount']}, {h['bal']}")
+            print(f"[{h['state']}], 금액 : {h['amount']}, 잔액 :{h['bal']}")
     else:
         print("잘못입력하셨습니다")
